@@ -17,7 +17,7 @@ import scipy.cluster.hierarchy as sch
 from . import CLA, EfficientFrontier, exceptions, risk_models
 
 try:
-    plt.style.use("seaborn-v0_8-deep")
+    plt.style.use("ggplot")
 except Exception:  # pragma: no cover
     pass
 
