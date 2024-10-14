@@ -17,7 +17,7 @@ import scipy.cluster.hierarchy as sch
 from . import CLA, EfficientFrontier, exceptions, risk_models
 
 try:
-    plt.style.use("ggplot")
+    plt.style.use("classic")
 except Exception:  # pragma: no cover
     pass
 
